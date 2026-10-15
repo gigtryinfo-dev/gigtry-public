@@ -3,45 +3,152 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GigTry — Public Documentation & Tool Catalog (89 Free AI Tools)</title>
-<meta name="description" content="Public docs for GigTry: 89 free AI tools (text, image, video, code, audio), the autonomous content engine architecture, public automation API reference, and the machine-readable tool catalog.">
+<title>GigTry — Free AI Tools Catalog (89 tools)</title>
+<meta name="description" content="Complete catalog of 89 free AI tools by GigTry: content writing, image generation, video, code, audio, SEO, business and education. Deep links to every tool on www.gigtry.com.">
 <link rel="canonical" href="https://gigtryinfo-dev.github.io/gigtry-public/">
-<meta property="og:title" content="GigTry — Public Documentation (89 Free AI Tools)">
-<meta property="og:description" content="Tool catalog, API reference and SEO playbook for the GigTry autonomous AI tools platform.">
-<meta property="og:url" content="https://gigtryinfo-dev.github.io/gigtry-public/">
 <style>
-  body{font-family:system-ui,-apple-system,sans-serif;max-width:820px;margin:0 auto;padding:2.5rem 1.25rem;line-height:1.6;color:#1c1917}
-  h1{font-size:1.7rem;margin-bottom:.3rem} .tag{color:#059669;font-weight:600}
-  a{color:#059669} .card{border:1px solid #e7e5e4;border-radius:12px;padding:1rem 1.25rem;margin:1rem 0}
-  ul{padding-left:1.2rem} footer{margin-top:2.5rem;color:#78716c;font-size:.9rem}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;max-width:960px;margin:0 auto;padding:24px;color:#1a1a2e;line-height:1.55}
+h1{font-size:1.9em} h2{margin-top:2em;border-bottom:2px solid #eef;padding-bottom:6px}
+a{color:#4f46e5} .chip{display:inline-block;background:#eef2ff;border-radius:999px;padding:4px 12px;margin:4px;font-size:.9em;text-decoration:none}
+table{border-collapse:collapse;width:100%;font-size:.93em} td,th{border:1px solid #e5e7eb;padding:7px 10px;text-align:left} tr:nth-child(even){background:#fafafa}
+.badge{background:#10b981;color:#fff;border-radius:6px;padding:2px 8px;font-size:.8em}
 </style>
 </head>
 <body>
-<h1>GigTry — Public Documentation</h1>
-<p class="tag">89 production-grade AI tools · autonomous content engine · 100% free-tier serverless</p>
-<p><strong><a href="https://www.gigtry.com">GigTry</a></strong> is a free AI tools marketplace: text generation, image creation, video scripts, code helpers, audio tools and productivity utilities. This repository holds its public documentation.</p>
-<div class="card">
-  <h2>Tool catalog</h2>
-  <p>The complete machine-readable catalog of all 89 tools (names, categories, endpoints, descriptions):</p>
-  <ul>
-    <li><a href="https://raw.githubusercontent.com/gigtryinfo-dev/gigtry-public/main/llms.txt">llms.txt (this repo)</a></li>
-    <li><a href="https://www.gigtry.com/llms.txt">llms.txt (live)</a></li>
-    <li><a href="https://www.gigtry.com/tools">Browse all 89 tools</a></li>
-  </ul>
-</div>
-<div class="card">
-  <h2>Public Automation API (v1)</h2>
-  <p>REST API for programmatic tool execution — base URL <code>https://www.gigtry.com/api/v1</code>, per-key daily quotas enforced server-side. See <a href="https://www.gigtry.com/docs/api">the API docs</a>.</p>
-</div>
-<div class="card">
-  <h2>Architecture highlights</h2>
-  <ul>
-    <li>Next.js 16 App Router + React 19 + Tailwind 4</li>
-    <li>Connection-gated autonomous content pipeline (trends → generate → publish → crosspost)</li>
-    <li>Atomic prepaid credit ledger with ≥500% margin compliance guard</li>
-    <li>Zero-key publishing surfaces: Telegraph (self-minting) + Write.as (anonymous)</li>
-  </ul>
-</div>
-<footer>Live site: <a href="https://www.gigtry.com">www.gigtry.com</a> · Blog: <a href="https://www.gigtry.com/blog">gigtry.com/blog</a> · API docs: <a href="https://www.gigtry.com/docs/api">gigtry.com/docs/api</a></footer>
+<h1>GigTry — Free AI Tools Catalog</h1>
+<p><strong>GigTry</strong> (<a href="https://www.gigtry.com">www.gigtry.com</a>) is an all-in-one AI tools platform for freelancers, businesses and creators: <span class="badge">89 AI tools</span> across content writing, image generation, video, code, audio, SEO, business and education. Most tools need <strong>no signup</strong> — open and run.</p>
+<p><strong>Jump to:</strong> <a class="chip" href="https://www.gigtry.com/tools/content-writing" style="text-transform:none">Content Writing (12 tools)</a>
+<a class="chip" href="https://www.gigtry.com/tools/image-generation" style="text-transform:none">Image Generation (9 tools)</a>
+<a class="chip" href="https://www.gigtry.com/tools/seo-&-marketing" style="text-transform:none">SEO &amp; Marketing (9 tools)</a>
+<a class="chip" href="https://www.gigtry.com/tools/business" style="text-transform:none">Business (9 tools)</a>
+<a class="chip" href="https://www.gigtry.com/tools/code-&-development" style="text-transform:none">Code &amp; Development (8 tools)</a>
+<a class="chip" href="https://www.gigtry.com/tools/social-media" style="text-transform:none">Social Media (7 tools)</a>
+<a class="chip" href="https://www.gigtry.com/tools/education" style="text-transform:none">Education (7 tools)</a>
+<a class="chip" href="https://www.gigtry.com/tools/video" style="text-transform:none">Video (6 tools)</a>
+<a class="chip" href="https://www.gigtry.com/tools/personal" style="text-transform:none">Personal (6 tools)</a>
+<a class="chip" href="https://www.gigtry.com/tools/audio-&-podcast" style="text-transform:none">Audio &amp; Podcast (5 tools)</a>
+<a class="chip" href="https://www.gigtry.com/tools/e-commerce" style="text-transform:none">E-commerce (5 tools)</a>
+<a class="chip" href="https://www.gigtry.com/tools/data-&-analytics" style="text-transform:none">Data &amp; Analytics (4 tools)</a>
+<a class="chip" href="https://www.gigtry.com/tools/productivity" style="text-transform:none">Productivity (2 tools)</a></p>
+
+<h2>Complete tool catalog (89 tools, free uses included)</h2>
+<p>Every row deep-links straight to the live tool on gigtry.com. "Free uses" = runs you get without an account or payment.</p>
+<table>
+<thead><tr><th>Tool</th><th>Category</th><th>Free uses</th></tr></thead>
+<tbody>
+<tr><td><a href="https://www.gigtry.com/tools/blog-post-writer">Blog Post Writer</a></td><td>Content Writing</td><td>?</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/article-generator">Article Generator</a></td><td>Content Writing</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/email-writer">Email Writer</a></td><td>Content Writing</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/newsletter-creator">Newsletter Creator</a></td><td>Content Writing</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/press-release-writer">Press Release Writer</a></td><td>Content Writing</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/product-description-writer">Product Description Writer</a></td><td>Content Writing</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/ad-copy-generator">Ad Copy Generator</a></td><td>Content Writing</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/slogan-generator">Slogan Generator</a></td><td>Content Writing</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/tagline-creator">Tagline Creator</a></td><td>Content Writing</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/story-writer">Story Writer</a></td><td>Content Writing</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/poem-generator">Poem Generator</a></td><td>Content Writing</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/song-lyrics-writer">Song Lyrics Writer</a></td><td>Content Writing</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/ai-image-generator">AI Image Generator</a></td><td>Image Generation</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/logo-maker">Logo Maker</a></td><td>Image Generation</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/banner-creator">Banner Creator</a></td><td>Image Generation</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/social-media-image">Social Media Image</a></td><td>Image Generation</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/product-photo-generator">Product Photo Generator</a></td><td>Image Generation</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/thumbnail-creator">Thumbnail Creator</a></td><td>Image Generation</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/infographic-generator">Infographic Generator</a></td><td>Image Generation</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/avatar-creator">Avatar Creator</a></td><td>Image Generation</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/video-script-writer">Video Script Writer</a></td><td>Video</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/video-title-generator">Video Title Generator</a></td><td>Video</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/youtube-description-writer">YouTube Description Writer</a></td><td>Video</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/tiktok-script-writer">TikTok Script Writer</a></td><td>Video</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/video-ideas-generator">Video Ideas Generator</a></td><td>Video</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/ai-video-generator">AI Video Generator</a></td><td>Video</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/code-generator">Code Generator</a></td><td>Code &amp; Development</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/code-debugger">Code Debugger</a></td><td>Code &amp; Development</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/code-explainer">Code Explainer</a></td><td>Code &amp; Development</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/code-converter">Code Converter</a></td><td>Code &amp; Development</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/regex-generator">Regex Generator</a></td><td>Code &amp; Development</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/sql-query-builder">SQL Query Builder</a></td><td>Code &amp; Development</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/api-documentation-writer">API Documentation Writer</a></td><td>Code &amp; Development</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/html-css-generator">HTML/CSS Generator</a></td><td>Code &amp; Development</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/seo-meta-tag-generator">SEO Meta Tag Generator</a></td><td>SEO &amp; Marketing</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/keyword-research-tool">Keyword Research Tool</a></td><td>SEO &amp; Marketing</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/content-optimizer">Content Optimizer</a></td><td>SEO &amp; Marketing</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/backlink-strategy-planner">Backlink Strategy Planner</a></td><td>SEO &amp; Marketing</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/competitor-analysis">Competitor Analysis</a></td><td>SEO &amp; Marketing</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/marketing-campaign-planner">Marketing Campaign Planner</a></td><td>SEO &amp; Marketing</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/ab-test-idea-generator">A/B Test Idea Generator</a></td><td>SEO &amp; Marketing</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/growth-hacking-ideas">Growth Hacking Ideas</a></td><td>SEO &amp; Marketing</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/social-media-post-generator">Social Media Post Generator</a></td><td>Social Media</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/hashtag-generator">Hashtag Generator</a></td><td>Social Media</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/caption-writer">Caption Writer</a></td><td>Social Media</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/social-media-calendar">Social Media Calendar</a></td><td>Social Media</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/twitter-thread-writer">Twitter Thread Writer</a></td><td>Social Media</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/linkedin-post-writer">LinkedIn Post Writer</a></td><td>Social Media</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/instagram-caption-writer">Instagram Caption Writer</a></td><td>Social Media</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/business-plan-writer">Business Plan Writer</a></td><td>Business</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/pitch-deck-content">Pitch Deck Content</a></td><td>Business</td><td>1</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/swot-analysis-generator">SWOT Analysis Generator</a></td><td>Business</td><td>1</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/meeting-agenda-creator">Meeting Agenda Creator</a></td><td>Business</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/proposal-writer">Proposal Writer</a></td><td>Business</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/company-bio-writer">Company Bio Writer</a></td><td>Business</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/mission-statement-generator">Mission Statement Generator</a></td><td>Business</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/lesson-plan-generator">Lesson Plan Generator</a></td><td>Education</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/quiz-creator">Quiz Creator</a></td><td>Education</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/study-notes-generator">Study Notes Generator</a></td><td>Education</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/course-outline-creator">Course Outline Creator</a></td><td>Education</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/essay-writer">Essay Writer</a></td><td>Education</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/flashcard-generator">Flashcard Generator</a></td><td>Education</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/podcast-script-writer">Podcast Script Writer</a></td><td>Audio &amp; Podcast</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/podcast-episode-ideas">Podcast Episode Ideas</a></td><td>Audio &amp; Podcast</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/voiceover-script-writer">Voiceover Script Writer</a></td><td>Audio &amp; Podcast</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/audio-ad-script-writer">Audio Ad Script Writer</a></td><td>Audio &amp; Podcast</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/product-listing-optimizer">Product Listing Optimizer</a></td><td>E-commerce</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/amazon-listing-writer">Amazon Listing Writer</a></td><td>E-commerce</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/etsy-description-writer">Etsy Description Writer</a></td><td>E-commerce</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/shopify-product-description">Shopify Product Description</a></td><td>E-commerce</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/ecommerce-seo-writer">E-commerce SEO Writer</a></td><td>E-commerce</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/resume-writer">Resume Writer</a></td><td>Personal</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/cover-letter-writer">Cover Letter Writer</a></td><td>Personal</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/linkedin-profile-optimizer">LinkedIn Profile Optimizer</a></td><td>Personal</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/personal-bio-writer">Personal Bio Writer</a></td><td>Personal</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/thank-you-note-writer">Thank You Note Writer</a></td><td>Personal</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/data-report-generator">Data Report Generator</a></td><td>Data &amp; Analytics</td><td>3</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/survey-question-creator">Survey Question Creator</a></td><td>Data &amp; Analytics</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/market-research-summary">Market Research Summary</a></td><td>Data &amp; Analytics</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/kpi-dashboard-description">KPI Dashboard Description</a></td><td>Data &amp; Analytics</td><td>1</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/ai-presentation-maker">AI Presentation Maker</a></td><td>Business</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/ai-meeting-notes-generator">AI Meeting Notes Generator</a></td><td>Business</td><td>1</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/ai-music-prompt-generator">AI Music Prompt Generator</a></td><td>Audio &amp; Podcast</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/ai-logo-concept-generator">AI Logo Concept Generator</a></td><td>Image Generation</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/ai-resume-optimizer">AI Resume Optimizer</a></td><td>Personal</td><td>1</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/ai-form-autofill">AI Form Auto-Fill</a></td><td>Productivity</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/ai-mock-exam">AI Mock Exam</a></td><td>Education</td><td>5</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/ai-seo-manager">AI SEO Manager</a></td><td>SEO &amp; Marketing</td><td>2</td></tr>
+<tr><td><a href="https://www.gigtry.com/tools/ai-pdf-tools">AI PDF Tools</a></td><td>Productivity</td><td>1</td></tr>
+</tbody>
+</table>
+
+<h2>Machine-readable surfaces</h2>
+<ul>
+<li><a href="https://www.gigtry.com/llms.txt">www.gigtry.com/llms.txt</a> — full tool catalog formatted for LLMs and answer engines</li>
+<li><a href="https://www.gigtry.com/feed.xml">www.gigtry.com/feed.xml</a> — RSS feed of the daily auto-published blog</li>
+<li><a href="https://www.gigtry.com/sitemap.xml">www.gigtry.com/sitemap.xml</a> — sitemap (4,450+ localized pages)</li>
+<li><a href="https://github.com/gigtryinfo-dev/ai-provider-pricing-dataset">AI Provider Pricing Dataset (125 providers)</a> — open JSON + CSV pricing data</li>
+</ul>
+
+<h2>Articles</h2>
+<ul>
+<li><a href="posts/we-use-prompts-that-have-been-tuned-through-gepa-so-the.md">We use prompts that have been tuned through GEPA…</a></li>
+<li><a href="posts/meta-and-microsoft-take-steps-to-reduce-employee-usage-of.md">Meta and Microsoft take steps to reduce employee usage of Claude AI</a></li>
+<li><a href="posts/building-a-personal-brand-as-a-freelancer.md">Building a Personal Brand as a Freelancer</a></li>
+<li><a href="posts/how-to-stay-productive-working-from-home.md">How to Stay Productive Working from Home</a></li>
+</ul>
+
+<h2>API</h2>
+<p>GigTry exposes a public Automation API v1 for programmatic tool runs — see <a href="https://www.gigtry.com/docs/api">www.gigtry.com/docs/api</a> and <a href="https://www.gigtry.com/api/v1">www.gigtry.com/api/v1</a>.</p>
+
+<footer style="margin-top:3em;border-top:1px solid #eee;padding-top:1em;color:#666;font-size:.9em">
+<p>Maintained by <a href="https://www.gigtry.com">GigTry</a> · <a href="https://github.com/gigtryinfo-dev">github.com/gigtryinfo-dev</a> · Platform: <a href="https://www.gigtry.com/pricing">free tier + Pro</a></p>
+</footer>
 </body>
 </html>
