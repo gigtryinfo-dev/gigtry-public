@@ -1,0 +1,17 @@
+# GigTry mirror — Jekyll config (GitHub Pages, legacy build)
+# R50: posts under posts/ render through the mirror layout, which emits the
+# TRUE canonical (front matter `canonical:` → gigtry.com) instead of GitHub's
+# default self-canonical — the mirror is a syndication surface, never a
+# duplicate-content competitor of the main site.
+title: GigTry (mirror)
+description: Daily 60-second AI tool tours and guides, syndicated from gigtry.com.
+url: https://gigtryinfo-dev.github.io/gigtry-public
+
+defaults:
+  - scope:
+      path: "posts"
+    values:
+      layout: mirror
+
+markdown: kramdown
+highlighter: rouge
