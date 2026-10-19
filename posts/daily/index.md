@@ -7,4 +7,5 @@ mirror: gigtry-public
 
 | Date | Tour |
 |------|------|
+| 2026-10-19 | [Audio Ad Script Writer — 60-second tour](https://gigtryinfo-dev.github.io/gigtry-public/posts/daily/2026-10-19-audio-ad-script-writer.html) |
 | 2026-10-18 | [Voiceover Script Writer — 60-second tour](https://gigtryinfo-dev.github.io/gigtry-public/posts/daily/2026-10-18-voiceover-script-writer.html) |
