@@ -7,6 +7,7 @@ mirror: gigtry-public
 
 | Date | Tour |
 |------|------|
+| 2026-10-28 | [AI Humanizer — 60-second tour](https://gigtryinfo-dev.github.io/gigtry-public/posts/daily/2026-10-28-ai-humanizer.html) |
 | 2026-10-27 | [AI Translator — 60-second tour](https://gigtryinfo-dev.github.io/gigtry-public/posts/daily/2026-10-27-ai-translator.html) |
 | 2026-10-26 | [AI Text Summarizer — 60-second tour](https://gigtryinfo-dev.github.io/gigtry-public/posts/daily/2026-10-26-text-summarizer.html) |
 | 2026-10-25 | [AI Paraphraser — 60-second tour](https://gigtryinfo-dev.github.io/gigtry-public/posts/daily/2026-10-25-paraphraser.html) |
