@@ -7,6 +7,7 @@ mirror: gigtry-public
 
 | Date | Clip |
 |------|------|
+| 2026-11-01 | [It eats your hours every single week.](https://gigtryinfo-dev.github.io/gigtry-public/posts/clips/2026-11-01-clip-1.html) |
 | 2026-10-31 | [It eats your hours every single week.](https://gigtryinfo-dev.github.io/gigtry-public/posts/clips/2026-10-31-clip-1.html) |
 | 2026-10-30 | [It eats your hours every single week.](https://gigtryinfo-dev.github.io/gigtry-public/posts/clips/2026-10-30-clip-1.html) |
 | 2026-10-29 | [It eats your hours every single week.](https://gigtryinfo-dev.github.io/gigtry-public/posts/clips/2026-10-29-clip-1.html) |
