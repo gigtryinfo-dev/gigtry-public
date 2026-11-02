@@ -7,6 +7,7 @@ mirror: gigtry-public
 
 | Date | Tour |
 |------|------|
+| 2026-11-02 | [AI Meeting Notes Generator — 60-second tour](https://gigtryinfo-dev.github.io/gigtry-public/posts/daily/2026-11-02-ai-meeting-notes-generator.html) |
 | 2026-11-01 | [Blog Post Writer — 60-second tour](https://gigtryinfo-dev.github.io/gigtry-public/posts/daily/2026-11-01-blog-post-writer.html) |
 | 2026-10-31 | [AI Logo Editor — 60-second tour](https://gigtryinfo-dev.github.io/gigtry-public/posts/daily/2026-10-31-ai-logo-editor.html) |
 | 2026-10-30 | [AI Image Editor — 60-second tour](https://gigtryinfo-dev.github.io/gigtry-public/posts/daily/2026-10-30-ai-image-editor.html) |
