@@ -7,6 +7,7 @@ mirror: gigtry-public
 
 | Date | Tour |
 |------|------|
+| 2026-11-06 | [AI Form Auto-Fill — 60-second tour](https://gigtryinfo-dev.github.io/gigtry-public/posts/daily/2026-11-06-ai-form-autofill.html) |
 | 2026-11-05 | [AI Resume Optimizer — 60-second tour](https://gigtryinfo-dev.github.io/gigtry-public/posts/daily/2026-11-05-ai-resume-optimizer.html) |
 | 2026-11-03 | [AI Music Prompt Generator — 60-second tour](https://gigtryinfo-dev.github.io/gigtry-public/posts/daily/2026-11-03-ai-music-prompt-generator.html) |
 | 2026-11-02 | [AI Meeting Notes Generator — 60-second tour](https://gigtryinfo-dev.github.io/gigtry-public/posts/daily/2026-11-02-ai-meeting-notes-generator.html) |
