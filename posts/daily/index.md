@@ -7,6 +7,7 @@ mirror: gigtry-public
 
 | Date | Tour |
 |------|------|
+| 2026-11-09 | [AI PDF Tools — 60-second tour](https://gigtryinfo-dev.github.io/gigtry-public/posts/daily/2026-11-09-ai-pdf-tools.html) |
 | 2026-11-08 | [AI SEO Manager — 60-second tour](https://gigtryinfo-dev.github.io/gigtry-public/posts/daily/2026-11-08-ai-seo-manager.html) |
 | 2026-11-07 | [AI Mock Exam — 60-second tour](https://gigtryinfo-dev.github.io/gigtry-public/posts/daily/2026-11-07-ai-mock-exam.html) |
 | 2026-11-06 | [AI Form Auto-Fill — 60-second tour](https://gigtryinfo-dev.github.io/gigtry-public/posts/daily/2026-11-06-ai-form-autofill.html) |
